@@ -12,7 +12,7 @@ public class PrintService<T> {
     }
 
     public T first(){
-        return list.getFirst();
+        return list.get(0);
     }
 
     public void print(){
