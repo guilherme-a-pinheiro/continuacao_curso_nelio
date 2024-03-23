@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Readers {
     public static void main(String[] args) {
 
-        String path = "c:\\temp\\in.txt";
+        String path = "c:\\temp\\in.csv";
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String line = br.readLine();
