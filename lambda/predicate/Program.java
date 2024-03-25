@@ -17,7 +17,7 @@ public class Program {
         list.add(new Product("HD Case", 80.90));
 
         double min = 100.0;
-        
+
         /* expressao lambda declarada
         * Predicate<Product> pred = p -> p.getPrice() >= min;
         * */
