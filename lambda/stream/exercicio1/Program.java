@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 public class Program {
     public static void main(String[] args) {
-        Locale.setDefault(Locale.US);   
+        Locale.setDefault(Locale.US);
 
     String strPath = "C:\\Users\\guilherme.pinheiro\\Desktop\\Guilherme\\Java\\continuacao_nelio\\lambda\\stream\\exercicio1\\in.csv";
 
